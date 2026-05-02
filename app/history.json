@@ -1,0 +1,43 @@
+[
+    {
+        "text": "URGENT: Your account has been suspended. Click here to verify http://fakebank.com",
+        "result": "\ud83d\udea8 Phishing Email",
+        "confidence": 1.0
+    },
+    {
+        "text": "URGENT: Your bank account is locked. Click here to verify immediately http://fake-bank.com",
+        "result": "\ud83d\udea8 Phishing Email",
+        "confidence": "80.54%",
+        "risk": "High"
+    },
+    {
+        "text": "URGENT: Your account has been suspended. Click here to verify http://fakebank.com",
+        "result": "\u2705 Safe Email",
+        "confidence": 82.51
+    },
+    {
+        "text": "Hi, please review the meeting notes attached.",
+        "result": "\u2705 Safe Email",
+        "confidence": 34.61
+    },
+    {
+        "text": "hiiii",
+        "result": "\u2705 Safe Email",
+        "confidence": 42.11
+    },
+    {
+        "text": "URGENT: Your bank account is locked. Click here to verify immediately http://fake-bank.com",
+        "result": "\u2705 Safe Email",
+        "confidence": 77.02
+    },
+    {
+        "text": "URGENT: Your bank account is suspended.\r\nClick here http://fakebank.com to verify now",
+        "result": "\ud83d\udea8 Phishing Email",
+        "confidence": 82.09
+    },
+    {
+        "text": "Hi, please find the meeting notes attached.\r\nLet me know your feedback.",
+        "result": "\u2705 Safe Email",
+        "confidence": 37.94
+    }
+]

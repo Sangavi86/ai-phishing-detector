@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Dashboard</title>
+    <style>
+        body {
+            font-family: Arial;
+            background: #111;
+            color: white;
+            padding: 20px;
+        }
+
+        .stats {
+            display: flex;
+            gap: 20px;
+        }
+
+        .box {
+            padding: 20px;
+            border-radius: 10px;
+            background: #222;
+        }
+
+        .phishing { color: red; }
+        .safe { color: lightgreen; }
+
+        .card {
+            background: #222;
+            margin-top: 15px;
+            padding: 15px;
+            border-radius: 10px;
+        }
+    </style>
+</head>
+
+<body>
+
+<h1>📊 Dashboard</h1>
+
+<div class="stats">
+    <div class="box">Total: {{total}}</div>
+    <div class="box phishing">Phishing: {{phishing}}</div>
+    <div class="box safe">Safe: {{safe}}</div>
+</div>
+
+<hr>
+
+{% for item in data %}
+<div class="card">
+    <p>{{item.text}}</p>
+    <b>{{item.result}} ({{item.confidence}}%)</b>
+</div>
+{% endfor %}
+
+</body>
+</html>
