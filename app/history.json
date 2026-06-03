@@ -74,5 +74,55 @@
         "text": "Hi there,\r\n\r\n\r\n\r\nAs part of our regular account maintenance, we request you to update your password ",
         "result": "\ud83d\udea8 Phishing Email",
         "confidence": 64.02
+    },
+    {
+        "text": "\nSkip to content\nUsing Gmail with screen readers\n\nSearch\nTry Gemini\nCompose\nLabels\nInbox\n979\nStarred",
+        "result": "Safe Email",
+        "confidence": 40.41
+    },
+    {
+        "text": "None selected\u00a0\n\nSkip to content\nUsing Gmail with screen readers\n\nSearch\nTry Gemini\nCompose\nLabels\nIn",
+        "result": "Phishing Email",
+        "confidence": 21.2
+    },
+    {
+        "text": "None selected\u00a0\n\nSkip to content\nUsing Gmail with screen readers\n\nSearch\nTry Gemini\nCompose\nLabels\nIn",
+        "result": "Phishing Email",
+        "confidence": 15.92
+    },
+    {
+        "text": "None selected\u00a0\n\nSkip to content\nUsing Gmail with screen readers\n\nSearch\nTry Gemini\nCompose\nLabels\nIn",
+        "result": "Safe Email",
+        "confidence": 41.03
+    },
+    {
+        "text": "We're wrapping up the first quarter of 2026 with some massive updates! \r\n\r\nOur team has been buildin",
+        "result": "\u2705 Safe Email",
+        "confidence": 19.68
+    },
+    {
+        "text": "Hey there, Sangavi\r\n\r\nIf you've ever nudged a text box trying to line it up with the image below it,",
+        "result": "\u2705 Safe Email",
+        "confidence": 24.23
+    },
+    {
+        "text": "\nSkip to content\nUsing Gmail with screen readers\n\nSearch\nTry Gemini\nCompose\nLabels\nInbox\n979\nStarred",
+        "result": "Phishing Email",
+        "confidence": 50.51
+    },
+    {
+        "text": "URGENT! Your Bank Account Will Be Closed\r\n\r\n\r\n Today\r\nDear Customer,\r\nWe detected suspicious activit",
+        "result": "\ud83d\udea8 Phishing Email",
+        "confidence": 87.83
+    },
+    {
+        "text": "\nSkip to content\nUsing Gmail with screen readers\n\nSearch\nTry Gemini\nCompose\nLabels\nInbox\n979\nStarred",
+        "result": "Phishing Email",
+        "confidence": 50.51
+    },
+    {
+        "text": "\nSkip to content\nUsing Gmail with screen readers\n\nSearch\nTry Gemini\nCompose\nLabels\nInbox\n979\nStarred",
+        "result": "Phishing Email",
+        "confidence": 50.51
     }
 ]

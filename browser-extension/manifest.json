@@ -2,7 +2,6 @@
   "manifest_version": 3,
   "name": "AI Phishing Detector",
   "version": "1.0",
-  "description": "Detect phishing emails using AI",
 
   "permissions": [
     "activeTab",
@@ -11,8 +10,15 @@
   ],
 
   "host_permissions": [
-    "https://mail.google.com/*",
-    "http://127.0.0.1:5000/*"
+    "http://127.0.0.1:5000/*",
+    "https://mail.google.com/*"
+  ],
+
+  "content_scripts": [
+    {
+      "matches": ["https://mail.google.com/*"],
+      "js": ["content.js"]
+    }
   ],
 
   "action": {
@@ -21,17 +27,5 @@
 
   "background": {
     "service_worker": "background.js"
-  },
-
-  "content_scripts": [
-    {
-      "matches": [
-        "https://mail.google.com/*"
-      ],
-      "js": [
-        "content.js"
-      ],
-      "run_at": "document_idle"
-    }
-  ]
+  }
 }
