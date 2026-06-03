@@ -1,3 +1,17 @@
+# 📸 Project Screenshots
+
+## Gmail Email Scan
+
+![Gmail Scan](screenshots/gmail-scan.png)
+
+## Dashboard Analytics
+
+![Dashboard](screenshots/dashboard.png)
+
+## Chrome Extension
+
+![Extension](screenshots/extension-popup.png)
+
 # 🛡️ AI Phishing Detector
 
 AI Phishing Detector is a machine learning-based web application that helps identify phishing emails by analyzing their content and detecting suspicious patterns. The goal of this project is to improve email security by providing users with a simple way to check whether an email is safe or potentially malicious.
