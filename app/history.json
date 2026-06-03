@@ -39,5 +39,40 @@
         "text": "Hi, please find the meeting notes attached.\r\nLet me know your feedback.",
         "result": "\u2705 Safe Email",
         "confidence": 37.94
+    },
+    {
+        "text": "hiiiiiii",
+        "result": "\u2705 Safe Email",
+        "confidence": 29.93
+    },
+    {
+        "text": "Hi there,\n\n\n\n\nAs part of our regular account maintenance, we request you to update your password to ",
+        "result": "\ud83d\udea8 Phishing Email",
+        "confidence": 71.25
+    },
+    {
+        "text": "Hi there,\n\n\n\n\nAs part of our regular account maintenance, we request you to update your password to ",
+        "result": "\ud83d\udea8 Phishing Email",
+        "confidence": 71.25
+    },
+    {
+        "text": "Hi there,\n\n\n\n\nAs part of our regular account maintenance, we request you to update your password to ",
+        "result": "\ud83d\udea8 Phishing Email",
+        "confidence": 71.25
+    },
+    {
+        "text": "\nSkip to content\nUsing Gmail with screen readers\n\nSearch\nTry Gemini\nCompose\nLabels\nInbox\n980\nStarred",
+        "result": "Safe Email",
+        "confidence": 46.9
+    },
+    {
+        "text": "\nSkip to content\nUsing Gmail with screen readers\n\nSearch\nTry Gemini\nCompose\nLabels\nInbox\n982\nStarred",
+        "result": "Safe Email",
+        "confidence": 43.42
+    },
+    {
+        "text": "Hi there,\r\n\r\n\r\n\r\nAs part of our regular account maintenance, we request you to update your password ",
+        "result": "\ud83d\udea8 Phishing Email",
+        "confidence": 64.02
     }
 ]
